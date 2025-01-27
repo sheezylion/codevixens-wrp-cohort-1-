@@ -2,8 +2,7 @@
 
 
 # Prompt the user to input a filename
-echo "Enter the filename to back up (e.g., file.txt): "
-read filename
+read -p  "Enter the filename to back up (e.g., file.txt): " filename
 
 # Define the backup directory
 backup_dir="backups"
